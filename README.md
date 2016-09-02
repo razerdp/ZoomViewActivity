@@ -1,6 +1,13 @@
 # Zoom a view when start a new activity
+# 仿微信等图片浏览时的缩放过渡BaseActivity
 
+####preview:
+![](https://github.com/razerdp/ZoomViewActivity/blob/master/art/preview.gif)
 
+###实现原理：
+【上篇】[一起撸个微信图片浏览的BaseActivity吧（上）——初步思考与基础结构](http://www.jianshu.com/p/a593acec1470)
+
+【下篇】[一起撸个微信图片浏览的BaseActivity吧（下）——过渡动画的实现](http://www.jianshu.com/p/2716c08e78b4)
 
 ##LICENSE：
 ***
