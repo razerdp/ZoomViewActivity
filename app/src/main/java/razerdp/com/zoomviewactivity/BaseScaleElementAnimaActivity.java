@@ -146,7 +146,7 @@ public abstract class BaseScaleElementAnimaActivity<V extends ImageView> extends
         targetScaleAnimaedImageView.setPivotY(0.5f);
         final AnimatorSet exit = new AnimatorSet();
 
-        exit.play(ObjectAnimator.ofFloat(targetScaleAnimaedImageView, View.X, startRect.left + deltaWidth))
+        exit.play(ObjectAnimator.ofFloat(targetScaleAnimaedImageView, View.X, startRect.left - deltaWidth))
             .with(ObjectAnimator.ofFloat(targetScaleAnimaedImageView, View.Y, startRect.top - deltaHeight))
             .with(ObjectAnimator.ofFloat(targetScaleAnimaedImageView, View.SCALE_X, ratios[0]))
             .with(ObjectAnimator.ofFloat(targetScaleAnimaedImageView, View.SCALE_Y, ratios[1]));
